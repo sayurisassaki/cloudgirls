@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+
+	//var multiplicador = 1;
+
+	//while(multiplicador <= 10) {
+
+		//mostra(7 * multiplicador);
+		//multiplicador = multiplicador + 1;
+	//}
+
+	// multiplicador++ significa uma incrementação, é ma mesma coisa que o código multiplicador = multiplicador + 1
+	
+		var numero = parseInt(prompt("Qual tabuda você deseja saber? "));
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+
+		mostra(numero * multiplicador);
+	}
+		mostra("FIM");
+
+</script>

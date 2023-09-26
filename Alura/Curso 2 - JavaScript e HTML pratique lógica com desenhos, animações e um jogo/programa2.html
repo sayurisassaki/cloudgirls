@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+
+    <script>
+
+        //var tela = document.querySelector("canvas");
+        //var pincel = tela.getContext("2d");
+
+        //pincel.fillStyle = "green";
+        //pincel.fillRect(0, 0, 50, 50);
+        //pincel.fillStroke = "black";
+        //pincel.strokeRect(0, 0, 50, 50);
+
+        //incel.fillRect(50, 0, 50, 50);
+        //pincel.strokeRect(50, 0, 50, 50);
+
+        //pincel.fillRect(100, 0, 50, 50);
+        //pincel.strokeRect(100, 0, 50, 50);
+
+
+        function quadrado(x, y, cor) {
+
+            var tela = document.querySelector("canvas");
+            var pincel = tela.getContext("2d");
+
+            pincel.fillStyle = cor;
+            pincel.fillRect(x, y, 50, 50);
+            pincel.fillStroke = "black";
+            pincel.strokeRect(x, y, 50, 50);
+            
+        }
+        /*
+        quadrado(0, 0, "green");
+        quadrado(0, 50, "blue");
+        quadrado(0, 100, "red");         
+        quadrado(0, 0, "green");
+        quadrado(50, 0, "green");
+        quadrado(100, 0, "green");
+
+        var x = 0;
+        while(x < 600) {
+
+            quadrado(x, 0, "green");
+            quadrado(x, 50,"red" );
+            x = x + 50; 
+        }
+        */
+
+        for(var x = 0; x < 600; x =x +50) {
+
+            quadrado(x, 0, "green");
+
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+	}
+	// o retorno da função prompt é sempre uma str. qnd vc pega o retorno do prompt e há um número e em seguida quer fazer uma operação de soma. Ele irá concatenar. Mas se você fizer uma operação de multiplicação ou divisão ele converte a str(número) em número real 
+	
+	var vitoria = parseInt ( prompt("Entre com o número de vitórias "));
+	var empate = parseInt ( prompt("Entre com o número de empares "));
+
+	var ponto = vitoria * 3 + empate;
+
+	mostra("Os pontos do seu time é " + ponto);
+
+	if (ponto >  28) {
+
+		mostra("Seu time está melhor do que o ano passado.");
+	}
+
+	if (pontos < que 28){
+
+		mostra("Seu time está pior do que o ano passado.");
+	}
+
+	if (pontos igual == 28) {
+
+		mostra("Seu time está igual ao ano passado.")
+	}
+
+	mostra("FIM");
+
+</script>

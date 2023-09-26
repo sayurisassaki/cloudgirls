@@ -1,0 +1,54 @@
+<meta charset="utf-8">
+
+<script> 
+
+	//Um função pode ter como instrução a chamada de outra função!
+	function pulaLinha() {
+
+		document.write("<br><br>");
+		//document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+	var ano = 2016;
+
+	mostra();
+	// Exibição na tela é undefined pq não foi definida nada dentro do () para exibir.
+
+
+	//document.write("Flávio tem " + (ano - 1977) + " anos" + "<br>");
+
+	mostra("Flávio tem " + (ano - 1977) + " anos");
+
+	//pulaLinha();
+
+	//document.write("Joaquim tem " + (ano - 1996) + " anos" + "<br>");
+
+	mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+	//pulaLinha();
+
+
+	ano = 2017
+
+	mostra("Barney tem " + (ano - 1976) + " anos");
+
+	//document.write("Barney tem " + (ano - 1976) + " anos");
+
+	var idadeFlavio = 39;
+	var idadeJoaquim = 20;
+	var idadeBarney = 41;
+
+	var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+	//pulaLinha();
+
+	document.write("A média das idades é " + Math.round(media));
+
+</script>
