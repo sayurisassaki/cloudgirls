@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.print.CancelablePrintJob"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Filme"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculo.CalculadoraDeTempo"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Serie"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.calculo.Classificavel"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Episodio"/>
+    <fullyQualifiedTypeName name="br.com.alura.minhamusicas.modelos.Musica"/>
+    <fullyQualifiedTypeName name="br.com.alura.minhamusicas.modelos.Podcast"/>
+    <fullyQualifiedTypeName name="br.com.alura.minhamusicas.modelos.MinhasPreferidas"/>
+    <fullyQualifiedTypeName name="MinhasExcecao"/>
+    <fullyQualifiedTypeName name="MinhaExcecao"/>
+    <fullyQualifiedTypeName name="SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.modelos.Titulo"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="br.com.alura.screenmatch.excessao.ErroDeConversaoDeAnoException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpRequest"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpResponse"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="buscador.ConsultaCep"/>
+    <fullyQualifiedTypeName name="buscador.Endereco"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>
